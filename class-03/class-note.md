@@ -469,7 +469,7 @@ The client:
 ```javascript
 const response = await client.responses.create({
   model: "MODEL_NAME",
-  input: "Hey, I am Jaani."
+  input: "Hey, I am Jarvis."
 });
 ```
 
@@ -519,7 +519,7 @@ async function main() {
   try {
     const response = await client.responses.create({
       model: "MODEL_NAME",
-      input: "Hey, I am Jaani."
+      input: "Hey, I am Jarvis."
     });
 
     console.log(response.output_text);
