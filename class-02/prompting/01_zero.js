@@ -11,7 +11,7 @@ async function name() {
     messages:[{role:'user',content:'tell me what is 2 + 2 '}]
 })
 
-console.log(result.choices[0].message.content);
+ 
 
 }
 
